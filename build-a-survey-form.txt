@@ -1,0 +1,70 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="title">Freecode Camp Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform.</p>
+    <form id="survey-form">
+      <div>
+      <label id="name-label" >Name
+        <input id="name" value="name" type="text" required
+        placeholder="Enter your name">
+      </label>
+      </div>
+      <div>
+      <label id="email-label">Email
+        <input type="email" id="email" name="email" required
+        placeholder="Enter your email">
+        </label>
+      </div>
+      <div>
+        <label id="number-label">
+        Number
+        <input type="number" id="number" name="number" min="18" max="150" placeholder="Enter number">
+        </label>
+      </div>
+      <div>
+        <label>Which option best describes your current role?
+        <select id="dropdown">
+          <option value="Frontend">Frontend</option>
+          <option value="Backend">Backend</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          Would your recomend freeCodeCamp to a friend?
+          <input type="radio" value="Definitely" name="recomended">
+          <input type="radio" value="Maybe" name="recomended">
+          <input type="radio" value="Not sure" name="recomended">
+        </label>
+      </div>
+      <div>
+        <label>
+          What would you like to see improved? (Check all that apply)
+          <input type="checkbox" value="Front-end Projects">
+          <input type="checkbox" value="Back-end Projects">
+          <input type="checkbox" value="Data Visualization">
+          <input type="checkbox" value="Challenges">
+          <input type="checkbox" value="Open Source Community">
+        </label>
+      </div>
+      <div>
+        <label>Any comments or suggestions?
+          <textarea placeholder="Enter your commente here"></textarea>
+        </label>
+      </div>
+      <input id="submit" type="submit" value="submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
