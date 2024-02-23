@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="title">Encuesta de marca Apple</h1>
+    <p id="description">Muchas gracias por tomarse el tiempo en contestar la siguiente encuesta con fines educativos. Sus respuestas serán tratadas de forma confidencial y no serán utilizadas para ningun propósito distinto al uso de está página como demostración.</p>
+    <form id="survey-form">
+      <div>
+      <label id="name-label" >Nombre
+        <input id="name" value="name" type="text" required
+        placeholder="Ingresa tu Nombre Completo">
+      </label>
+      </div>
+      <div>
+      <label id="email-label">Correo Electrónico
+        <input type="email" id="email" name="email" required
+        placeholder="Ingresa tu Correo Electrónico">
+        </label>
+      </div>
+      <div>
+        <label id="number-label">
+        Edad
+        <input type="number" id="number" name="number" min="18" max="150" placeholder="Ingresa tu Edad">
+        </label>
+      </div>
+      <div>
+        <label>¿Cuále es el producto favorito de la marca Apple?
+        <select id="dropdown">
+          <option value="Mac">Mac</option>
+          <option value="iPad">iPad</option>
+          <option value="iPhone">iPhone</option>
+          <option value="Watch">Watch</option>          
+          <option value="AirPods">AirPods</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          ¿Recomendarías los productos de Apple a algun familiar?
+          <input type="radio" value="Definitivamente" name="recomendacion">
+          <input type="radio" value="Tal vez" name="recomendacion">
+          <input type="radio" value="No estoy segur@" name="recomendacion">
+        </label>
+      </div>
+      <div>
+        <label>
+          ¿Qué es lo que más te gusta de la marca Apple?
+          <input type="checkbox" value="Estetica">
+          <input type="checkbox" value="Practicidad">
+          <input type="checkbox" value="Originalidad">
+          <input type="checkbox" value="Usabilidad">
+          <input type="checkbox" value="Durabilidad">
+        </label>
+      </div>
+      <div>
+        <label>¿Tienes alguna sugerencia para mejorar algun producto?
+          <textarea placeholder="Ingresa tu comentario aquí"></textarea>
+        </label>
+      </div>
+      <input id="submit" type="submit" value="submit">
+    </form>
+  </body>
+</html>

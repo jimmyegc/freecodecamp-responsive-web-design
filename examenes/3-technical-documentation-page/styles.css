@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-color: #de3163;
+  }
+}
+
+/*
+320px — 480px: Dispositivos móviles
+481px — 768px: iPads, Tabletas
+769px — 1024px: pantallas pequeñas, laptops
+1025px — 1200px: Computadoras de escritorio, pantallas grandes
+1201px y más —  Pantallas extra-grandes, TV
+*/
